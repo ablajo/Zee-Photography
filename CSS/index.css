@@ -1,0 +1,281 @@
+/*
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.container{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+#container-items{
+    padding-top: 3%;
+        line-height: 200%;
+
+}
+
+.carousel-caption {
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*** Footer ***/
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+
+.bgtext{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+
+}
+.bgbutt{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.bgbutt button{
+    color: white;
+    background-color: transparent;
+}
+.bgbutt button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.form-group{
+    width: 90%;
+    margin-left: 2%;
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+       
+.bgtext{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+
+}
+.bgbutt{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+          
+.bgtext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+
+}
+.bgbutt{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.bgbutt button{
+    color: white;
+    background-color: black;
+}
+} 
+
+
+
+
+@media (min-width: 1024px) {
+.carousel-inner img{
+    width: 100%;
+    height: 550px;
+}
+       
+.bgtext{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+
+}
+.bgbutt{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.bgbutt button{
+    color: white;
+    background-color: black;
+}
+}
+@media (min-width: 1024px) {
+    .navbar-nav{
+        margin-left: 20%;
+    }
+.carousel-inner img{
+    width: 100%;
+    height: 650px;
+}
+    .nav-item{
+        margin-left: 50%;
+    }
+    .form-group{
+    width: 50%;
+}
+    
+.bgtext{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+
+}
+.bgbutt{
+    position: absolute;
+    top: 90%;
+    left: 37%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+        width: 50%;
+
+}
+.bgbutt button{
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+}
+.bgbutt button:hover{
+    color: white;
+    background-color: black;
+}
+}
+
+
+
+
+
+
+.bgimage img{
+width: 100%;
+    
+}
+
+.card-body{
+    background-color: palevioletred;
+    color: white;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: top;
+   max-height: 70px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+}
+.logowrapper{
+    display: inline-block;
+    width: 100%;
+}
